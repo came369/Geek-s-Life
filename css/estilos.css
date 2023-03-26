@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #190a05, #870000);
+}
+
+.title,
+.text {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+.title .text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-rows: 100px;
+  grid-template-areas: "1 2 3";
+  align-items: start;
+}
+
+.title {
+}
